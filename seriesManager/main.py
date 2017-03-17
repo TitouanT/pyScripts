@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+# Titouan Teyssier 17/03/2017
 from os import path
 import sys
 
