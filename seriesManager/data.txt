@@ -1,0 +1,29 @@
+12 Monkeys:0:0:0
+APB:1:4:1
+Arrow:0:0:0
+Breaking Bad:0:0:0
+castle:0:0:0
+Continuum:0:0:0
+Game of Thrones:6:10:0
+Homeland:0:0:0
+How to get away with murder:3:11:0
+iZombie:0:0:0
+Jessica Jones:0:0:0
+Luke Cage:0:0:0
+malcolm:0:0:0
+master of sex:0:0:0
+Mr Robot:0:0:0
+New Girl:0:0:0
+Once upon a time:0:0:0
+Orange is the new black:0:0:0
+Outlander:1:0:0
+RiverDale:0:0:0
+Stranger Things:1:8:0
+Teen wolf:6:10:0
+The 100:0:0:0
+the big bang theory:9:22:1
+The Defenders:1:0:0
+the good witch:0:0:0
+The Walking Dead:7:6:0
+Unreal:0:0:0
+Vikings:0:0:0
