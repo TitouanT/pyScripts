@@ -3,8 +3,6 @@
 from os import path
 import sys
 
-true, false = 1, 0
-
 dataDir = path.join(path.dirname(__file__), 'data.txt')
 
 class Serie:
@@ -15,7 +13,7 @@ class Serie:
 		self.e = episode
 		self.id = Serie.n
 		self.current = current
-		self.known = true if season > 0 else false
+		self.known = True if season > 0 else False
 		Serie.n += 1
 	def __str__(self):
 		if self.known:
@@ -36,7 +34,7 @@ class Serie:
 			)
 		return disp
 	def formatData(self):
-		return '{}:{}:{}:{}'.format(
+		return '{}:{}:{}:{:d}'.format(
 			self.name,
 			self.s,
 			self.e,
@@ -52,7 +50,9 @@ def readData():
 	for line in lines:
 		if line != '':
 			name, season, episode, current = line.split(':')
-			series.append(Serie(name, int(season), int(episode), int(current)))
+			series.append (
+				Serie(name, int(season), int(episode), int(current))
+			)
 
 	return series
 
@@ -114,10 +114,7 @@ elif argv[0] == 'current' or argv[0] == 'c':
 elif argv[0] == 'toggle' or argv[0] == 't':
 	index = int(argv[1])
 	cur = series[index].current
-	if cur:
-		series[index].current = false
-	else:
-		series[index].current = true
+	series[index].current = not cur
 
 elif argv[0] == 'del' or argv[0] == 'd':
 	index = int(argv[1])
