@@ -7,14 +7,16 @@ dataDir = path.join(path.dirname(__file__), 'data.txt')
 
 class Serie:
 	n = 0
+
 	def __init__(self, name, season, episode, current):
 		self.name = name
 		self.s = season
 		self.e = episode
 		self.id = Serie.n
 		self.current = current
-		self.known = True if season > 0 else False
+		self.known = season > 0
 		Serie.n += 1
+
 	def __str__(self):
 		if self.known:
 			disp = '{id:>2} {name:<28}:{se:^25} {cur}'.format(
@@ -33,6 +35,7 @@ class Serie:
 				w = 'unknown'
 			)
 		return disp
+
 	def formatData(self):
 		return '{}:{}:{}:{:d}'.format(
 			self.name,
@@ -63,7 +66,6 @@ def writeData (series):
 		string += serie.formatData() + '\n'
 	dataFile.write(string)
 	dataFile.close()
-
 
 argv = sys.argv[1:]
 argc = len(argv)
@@ -119,6 +121,7 @@ elif argv[0] == 'toggle' or argv[0] == 't':
 elif argv[0] == 'del' or argv[0] == 'd':
 	index = int(argv[1])
 	del(series[index])
+
 else:
 	print('usage: without argument to display the data')
 	print('or with:')
@@ -130,6 +133,5 @@ else:
 	print('   current                                       -> to display the series you are currently watching')
 	print('   toggle <index>                                -> toggle the value of the current status of the serie at index')
 	exit()
-
 
 writeData(series)
