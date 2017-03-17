@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 # Titouan Teyssier 19/02/2017
 from edt import Edt, extractTime
 import sms
