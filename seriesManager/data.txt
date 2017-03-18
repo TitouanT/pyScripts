@@ -18,10 +18,11 @@ Once upon a time:0:0:0
 Orange is the new black:0:0:0
 Outlander:1:0:0
 RiverDale:0:0:0
+Silicon Valley:3:10:0
 Stranger Things:1:8:0
 Teen wolf:6:10:0
 The 100:0:0:0
-the big bang theory:9:22:1
+the big bang theory:10:3:1
 The Defenders:1:0:0
 the good witch:0:0:0
 The Walking Dead:7:6:0
