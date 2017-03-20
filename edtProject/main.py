@@ -19,7 +19,8 @@ while True:
 	sec = currentSec.to(sendTime)
 
 	if (firstTurn and sec.sec > Sec(h=12).sec) or not firstTurn:
-		edt1day = edt.tomorrow()
+		edt1day = edt.today()
+	#	edt1day = edt.tomorrow()
 		if len(edt1day)>0:
 			print('----------------- begin of message -----------------')
 			print(edt1day[0].day() + '\n' + str(edt1day) + '\nT2')
