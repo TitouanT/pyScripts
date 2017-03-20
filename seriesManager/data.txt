@@ -1,30 +1,30 @@
-12 Monkeys:0:0:0
-APB:1:6:1
-Arrow:0:0:0
-Breaking Bad:0:0:0
-castle:0:0:0
-Continuum:0:0:0
-Game of Thrones:6:10:0
-Homeland:0:0:0
-How to get away with murder:3:11:0
-iZombie:0:0:0
-Jessica Jones:0:0:0
-Luke Cage:0:0:0
-malcolm:1:1:0
-master of sex:0:0:0
-Mr Robot:0:0:0
-New Girl:0:0:0
-Once upon a time:0:0:0
-Orange is the new black:0:0:0
-Outlander:1:0:0
-RiverDale:1:6:1
-Silicon Valley:3:10:0
-Stranger Things:1:8:0
-Teen wolf:6:10:0
-The 100:0:0:0
-the big bang theory:10:18:1
-The Defenders:1:0:0
-the good witch:0:0:0
-The Walking Dead:7:6:0
-Unreal:0:0:0
-Vikings:0:0:0
+12 Monkeys:0:0:0:
+APB:1:6:1:prochain lundi 20 mars
+Arrow:0:0:0:
+Breaking Bad:0:0:0:
+castle:0:0:0:
+Continuum:0:0:0:
+Game of Thrones:6:10:0:
+Homeland:0:0:0:
+How to get away with murder:3:11:0:
+iZombie:0:0:0:
+Jessica Jones:0:0:0:
+Luke Cage:0:0:0:
+malcolm:1:1:0:
+master of sex:0:0:0:
+Mr Robot:0:0:0:
+New Girl:0:0:0:
+Once upon a time:1:0:0:
+Orange is the new black:4:13:0:prochain 9 juin 2017
+Outlander:1:0:0:
+RiverDale:1:7:1:prochain jeudi 30 mars 2017
+Silicon Valley:3:10:0:
+Stranger Things:1:8:0:
+Teen wolf:6:10:0:
+The 100:0:0:0:
+the big bang theory:10:18:1:prochain jeudi 30 mars 2017
+The Defenders:1:0:0:
+the good witch:0:0:0:
+The Walking Dead:7:6:0:
+Unreal:0:0:0:
+Vikings:0:0:0:

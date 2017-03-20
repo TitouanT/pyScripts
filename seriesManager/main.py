@@ -9,10 +9,11 @@ dataDir = path.join(path.dirname(__file__), 'data.txt')
 class Serie:
 	n = 0
 
-	def __init__(self, name, season, episode, current):
+	def __init__(self, name, season, episode, current, data):
 		self.name = name
 		self.s = season
 		self.e = episode
+		self.data = data
 		self.id = Serie.n
 		self.current = current
 		self.known = season > 0
@@ -20,29 +21,32 @@ class Serie:
 
 	def __str__(self):
 		if self.known:
-			disp = '{id:>2} {name:<28}:{se:^25} {cur}'.format(
+			disp = '{id:>2} {name:<28}:{se:^25} {cur} {data}'.format(
 				id = self.id,
 				name = self.name,
 				se = 'S{s:0>2} E{e:0>2}'.format(
 					s = self.s,
 					e = self.e
 				),
-				cur = '***' if self.current else ''
+				cur = '***' if self.current else '   ',
+				data = self.data
 			)
 		else:
-			disp = '{id:>2} {name:<28}:{w:^25}'.format(
+			disp = '{id:>2} {name:<28}:{w:^25} {data}'.format(
 				id = self.id,
 				name = self.name,
+				data = self.data,
 				w = 'unknown'
 			)
 		return disp
 
 	def formatData(self):
-		return '{}:{}:{}:{:d}'.format(
+		return '{}:{}:{}:{:d}:{}'.format(
 			self.name,
 			self.s,
 			self.e,
-			self.current
+			self.current,
+			self.data
 		)
 
 def readData():
@@ -53,9 +57,9 @@ def readData():
 	series = []
 	for line in lines:
 		if line != '':
-			name, season, episode, current = line.split(':')
+			name, season, episode, current, data = line.split(':')
 			series.append (
-				Serie(name, int(season), int(episode), int(current))
+				Serie(name, int(season), int(episode), int(current), data)
 			)
 
 	return series
@@ -119,9 +123,13 @@ elif argv[0] == 'toggle' or argv[0] == 't':
 	cur = series[index].current
 	series[index].current = not cur
 
-elif argv[0] == 'del' or argv[0] == 'd':
+elif argv[0] == 'del' or argv[0] == '-':
 	index = int(argv[1])
 	del(series[index])
+
+elif argv[0] == 'data' or argv[0] == 'd':
+	index = int(argv[1])
+	series[index].data = argv[2].replace(':', '')
 
 else:
 	print('usage: without argument to display the data')
