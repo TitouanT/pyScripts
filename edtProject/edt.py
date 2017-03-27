@@ -32,7 +32,7 @@ def updateEdt(url):
 	edt.write(urlopen(url).read())
 	edt.close()
 
-def extractTime(date2extract, timezone=1):
+def extractTime(date2extract, timezone=2):
 	date = {}
 	date['year'] = int(date2extract[:4])
 	date['month'] = int(date2extract[4:6])
