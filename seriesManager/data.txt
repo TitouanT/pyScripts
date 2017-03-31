@@ -1,5 +1,5 @@
 12 Monkeys:0:0:0:
-APB:1:6:1:prochain lundi 20 mars
+APB:1:7:1:
 Arrow:0:0:0:
 Breaking Bad:0:0:0:
 castle:0:0:0:
@@ -17,12 +17,12 @@ New Girl:0:0:0:
 Once upon a time:3:6:1:
 Orange is the new black:4:13:0:prochain 9 juin 2017
 Outlander:1:0:0:
-RiverDale:1:7:1:prochain jeudi 30 mars 2017
+RiverDale:1:8:1:
 Silicon Valley:3:10:0:
 Stranger Things:1:8:0:
 Teen wolf:6:10:0:
 The 100:0:0:0:
-the big bang theory:10:18:1:prochain jeudi 30 mars 2017
+the big bang theory:10:19:1:
 The Defenders:1:0:0:
 the good witch:0:0:0:
 The Walking Dead:7:6:0:
