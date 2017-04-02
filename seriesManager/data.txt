@@ -7,6 +7,7 @@ Continuum:0:0:0:
 Game of Thrones:6:10:0:
 Homeland:0:0:0:
 How to get away with murder:3:11:0:
+into the badlands:0:0:0:
 iZombie:0:0:0:
 Jessica Jones:0:0:0:
 Luke Cage:0:0:0:
@@ -14,7 +15,7 @@ malcolm:1:1:0:
 master of sex:0:0:0:
 Mr Robot:0:0:0:
 New Girl:0:0:0:
-Once upon a time:3:6:1:
+Once upon a time:3:13:1:
 Orange is the new black:4:13:0:prochain 9 juin 2017
 Outlander:1:0:0:
 RiverDale:1:8:1:

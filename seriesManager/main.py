@@ -83,7 +83,7 @@ if argc == 0:
 	exit()
 
 elif argv[0] == 'new' or argv[0] == 'n':
-	serie = Serie(argv[1], int(argv[2]), int(argv[3]), 0)
+	serie = Serie(argv[1], int(argv[2]), int(argv[3]), 0, '')
 	series.append(serie)
 	series.sort(key = lambda serie: serie.name.replace(' ', '').lower())
 
