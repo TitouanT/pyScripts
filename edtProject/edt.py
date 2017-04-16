@@ -28,9 +28,16 @@ def coursExtractor(lines):
 	return elt, lines[i+1:]
 
 def updateEdt(url):
-	edt = open(Edt.edtDir, 'wb')
-	edt.write(urlopen(url).read())
-	edt.close()
+	try:
+		data = urlopen(url)
+	except Exception:
+		data = None
+		print('Server Down: Using previously downloded data')
+
+	if data is not None:
+		edt = open(Edt.edtDir, 'wb')
+		edt.write(data.read())
+		edt.close()
 
 def extractTime(date2extract, timezone=2):
 	date = {}
@@ -92,6 +99,9 @@ class Edt(list):
 
 		updateEdt(self.url)
 		lines = [line.split('(')[0] for line in open(Edt.edtDir, 'r').read().split('\n')]
+		if lines == ['']:
+			print("NO DATA")
+			quit()
 		lines = removeJunkLines(lines)
 
 		while lines != []:
