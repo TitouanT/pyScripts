@@ -5,6 +5,7 @@ Breaking Bad:0:0:0:
 castle:0:0:0:
 Continuum:0:0:0:
 Game of Thrones:6:10:0:
+girlBoss:1:0:0:
 Homeland:0:0:0:
 How to get away with murder:3:11:0:
 into the badlands:0:0:0:
@@ -15,15 +16,16 @@ malcolm:1:1:0:
 master of sex:0:0:0:
 Mr Robot:0:0:0:
 New Girl:0:0:0:
-Once upon a time:5:12:1:
+Once upon a time:6:16:1:
 Orange is the new black:4:13:0:prochain 9 juin 2017
 Outlander:1:0:0:
 RiverDale:1:8:1:
+sense8:0:0:0:
 Silicon Valley:3:10:0:
 Stranger Things:1:8:0:
 Teen wolf:6:10:0:
 The 100:0:0:0:
-the big bang theory:10:21:1:
+the big bang theory:10:24:1:
 The Defenders:1:0:0:
 the good witch:0:0:0:
 The Walking Dead:7:6:0:
